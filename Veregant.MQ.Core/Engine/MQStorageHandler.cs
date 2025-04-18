@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Veregant.MQ.Core.Models
+namespace Veregant.MQ.Core.Engine
 {
-	internal class MQTask
+	internal class MQStorageHandler
 	{
 	}
 }

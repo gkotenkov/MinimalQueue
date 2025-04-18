@@ -9,10 +9,10 @@ namespace Veregant.MQ.Core.Models
 {
 	internal class MQueue
 	{
-		ImmutableQueue<MQTask> Queue { get; set; }
-		
-		string QName { get; set; }
+		public ImmutableQueue<MQMessage> Queue { get; set; }
 
-		string QPriority { get; set; }
+		public string QName { get; set; }
+
+		public string QPriority { get; set; }
 	}
 }

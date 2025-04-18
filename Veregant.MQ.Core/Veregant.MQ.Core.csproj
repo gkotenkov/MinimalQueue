@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Engine\" />
+    <Folder Include="Interface\" />
   </ItemGroup>
 
 </Project>
